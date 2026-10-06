@@ -1,0 +1,14 @@
+pkgbase = neoldg-git
+	pkgdesc = example
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://example.com
+	arch = x86_64
+	license = MIT
+	depends = qt6-serialport
+	source = neoldg-git::git+https://github.com/RiskAndReward1337/NeoLDG
+	source = socat.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = neoldg-git

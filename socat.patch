@@ -1,0 +1,10 @@
+--- a/src/MainWindow.cpp
++++ b/src/MainWindow.cpp
+@@ -772,6 +772,7 @@
+         }
+         portCombo_->addItem(label, info.portName());
+     }
++    portCombo_->addItem(QStringLiteral("ttyUSB9"), QStringLiteral("ttyUSB9"));
+
+     auto selectPort = [this](const QString& portName) {
+         if (portName.isEmpty()) {
