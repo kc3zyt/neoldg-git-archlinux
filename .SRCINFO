@@ -1,6 +1,6 @@
 pkgbase = neoldg-git
 	pkgver = 1.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/RiskAndReward1337/NeoLDG
 	arch = x86_64
 	license = MIT
@@ -9,6 +9,6 @@ pkgbase = neoldg-git
 	source = neoldg-git::git+https://github.com/RiskAndReward1337/NeoLDG
 	source = socat.patch
 	sha256sums = SKIP
-	sha256sums = SKIP
+	sha256sums = 6e03ad4cbd640cf560bd8cc93891fa9c5dd188b574bd955ce21e5a37b2ca22ca
 
 pkgname = neoldg-git
