@@ -1,10 +1,10 @@
 pkgbase = neoldg-git
-	pkgdesc = example
-	pkgver = 0.0.1
+	pkgver = 1.2
 	pkgrel = 1
-	url = https://example.com
+	url = https://github.com/RiskAndReward1337/NeoLDG
 	arch = x86_64
 	license = MIT
+	makedepends = cmake
 	depends = qt6-serialport
 	source = neoldg-git::git+https://github.com/RiskAndReward1337/NeoLDG
 	source = socat.patch

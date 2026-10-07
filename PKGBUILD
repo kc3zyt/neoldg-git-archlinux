@@ -9,6 +9,7 @@ arch=('x86_64')
 url='https://github.com/RiskAndReward1337/NeoLDG'
 license=('MIT')
 depends=('qt6-serialport')
+makedepends=('cmake')
 source=(
 	"${pkgname}::git+https://github.com/RiskAndReward1337/NeoLDG"
 	"socat.patch"
