@@ -3,7 +3,7 @@
 pkgname=neoldg-git
 _pkgname=NeoLDG
 pkgver=1.2
-pkgrel=2
+pkgrel=3
 pkgdesc=''
 arch=('x86_64')
 url='https://github.com/RiskAndReward1337/NeoLDG'
@@ -46,7 +46,7 @@ build() {
 }
 
 package() {
-	install -Dm755 "${srcdir}/$pkgname/build/${_pkgname}" "{$pkgdir}/usr/bin/${_pkgname}"
+	install -Dm755 "${srcdir}/$pkgname/build/${_pkgname}" "${pkgdir}/usr/bin/${_pkgname}"
 	install -Dm644 "${srcdir}/$pkgname/neoldg.desktop" "${pkgdir}/usr/share/applications/neoldg.desktop"
 }
 

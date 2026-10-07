@@ -1,6 +1,6 @@
 pkgbase = neoldg-git
 	pkgver = 1.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/RiskAndReward1337/NeoLDG
 	arch = x86_64
 	license = MIT
